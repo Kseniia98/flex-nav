@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.head {
+  padding: 30px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-color: #262626;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+.navigation {
+  min-width: 300px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.butt-contact {
+  text-transform: uppercase;
+  padding: 5px 10px;
+
+  font-size: 10x;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
